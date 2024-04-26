@@ -40,7 +40,7 @@ const Main = () =>{
                 :
                 <div className="result">
                      <div className="result-data">
-                        <img src={assets.user1_icon} alt="" />
+                        <img src={assets.user_icon} alt="" />
                         <p>{recentPrompt}</p>
                      </div>
                      <div className="result-data">
@@ -60,7 +60,7 @@ const Main = () =>{
                 
                 <div className="main-button">
                     <div className="search-box">
-                        <input onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder="Enter things you want to search" />
+                        <input onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder="Enter prompts" />
 
                         <div>
                             {input?<img onClick={()=>onSent( )} src={assets.send_icon} alt="" />:null}
