@@ -40,7 +40,7 @@ const Main = () =>{
                 :
                 <div className="result">
                      <div className="result-data">
-                        <img src={assets.maxresdefault} alt="" />
+                        <img src={assets.user1_icon} alt="" />
                         <p>{recentPrompt}</p>
                      </div>
                      <div className="result-data">
