@@ -113,6 +113,7 @@
     gap: 10px;
     padding: 0px 5%;
     max-height: 70vh;
+    overflow-y : scroll;
     
 }
 .result::-webkit-scrollbar{
